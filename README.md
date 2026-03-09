@@ -1,4 +1,4 @@
-BLE WiFi Remote Monitoring Gateway# BLE WiFi Remote Monitoring Gateway
+# BLE WiFi Remote Monitoring Gateway
 
 ## Overview
 
