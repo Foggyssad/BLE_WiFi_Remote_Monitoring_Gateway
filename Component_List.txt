@@ -1,0 +1,88 @@
+BLE WiFi Remote Monitoring Gateway
+Physical Components List
+
+
+1. Components to be Ordered (Bill of Materials)
+---------------------------
+
+FRDM-RW612 Development Board
+Manufacturer: NXP
+Description:
+Development board containing the RW612 wireless MCU with integrated
+WiFi and Bluetooth Low Energy connectivity. The board includes
+external QSPI flash memory and acts as the main processing platform
+for the monitoring gateway firmware.
+Link from Lithuanian distributor: 
+https://lt.farnell.com/nxp/frdm-rw612/development-board-32bit-arm-cortex/dp/4552201
+
+Quantity: 1
+
+INA219 Current / Voltage Sensor Module
+Manufacturer: Texas Instruments
+Interface: I2C
+Description:
+High-side current and bus voltage monitoring sensor used to measure
+electrical parameters of the monitored system.
+Link from Lithuanian distributor: 
+https://www.anodas.lt/dvikryptis-sroves-galios-jutiklis-ina219-26v-3-2a-stemma-at-qwiic-adafruit-904
+
+
+Quantity: 1
+
+BME280 Environmental Sensor Module
+Manufacturer: Bosch Sensortec
+Interface: I2C
+Description:
+Environmental sensor capable of measuring temperature, humidity,
+and atmospheric pressure.
+Link from Lithuanian distributor:
+https://www.anodas.lt/en/bme280-humidity-temperature-and-pressure-sensor-110kpa-i2c-spi-3-3v-soldered-connectors
+
+Quantity: 1
+
+
+2. Auxiliary / Test-stage Components
+--------------------------------------------------
+
+Jumper Wires
+Description:
+Used to connect the I2C sensor modules to the development board.
+
+Quantity: As required
+
+Breadboard / Prototyping Board
+Description:
+Used to mount and interconnect sensor modules during prototyping.
+
+Quantity: 1
+
+USB Cable
+Description:
+Used to power the development board and connect it to the development
+workstation.
+
+Quantity: 1
+
+
+3. Existing Infrastructure (Not Required to be Ordered)
+-------------------------------------------------------
+
+Development Workstation (PC or Laptop)
+Description:
+Used for firmware development, compilation, flashing, and running
+the host telemetry monitoring software.
+
+Segger J-Link Debug Probe
+Description:
+Hardware debugger used to program and debug the RW612 microcontroller
+through the SWD/JTAG interface.
+
+Mobile Phone with BLE Capability
+Description:
+Used by the technician to connect to the gateway over BLE and configure
+the device using the provisioning application.
+
+WiFi Access Point / Hotspot
+Description:
+Wireless network used to provide connectivity between the monitoring
+gateway and the host monitoring application.

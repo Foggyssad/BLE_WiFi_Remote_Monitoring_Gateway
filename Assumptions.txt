@@ -1,0 +1,20 @@
+BLE WiFi Remote Monitoring Gateway
+System Assumptions
+
+1. Power Supply
+The gateway is powered through the USB interface of the FRDM-RW612 board.
+During development the board is powered from the development workstation.
+In deployment the device is expected to receive 5 V USB power from the
+target system or another USB power source.
+
+2. Network Availability
+A WiFi access point must be available for the gateway to transmit telemetry.
+
+3. BLE Provisioning
+A mobile phone, or other client device with BLE capability is required for initial device provisioning.
+
+4. Sensor Connectivity
+External sensors connected through the I2C bus must be properly wired and powered.
+
+5. Host Monitoring
+Host computer running the telemetry monitoring Python script must be available to receive UDP telemetry packets from the gateway.
